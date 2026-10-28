@@ -6,4 +6,9 @@ public class PedidoEntregaNormal extends Pedido {
         return 15.0f;
     }
 
+    @Override
+    public String getTipo() {
+        return "PedidoEntregaNormal";
+    }
+
 }
